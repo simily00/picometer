@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	background-color: #2A2A2A;
+}
+
+/*navigation*/
+nav {
+	background-color: #262626;
+	height: 80px;
+}
+nav .logo {
+	color: #fff;
+    line-height: 20px;
+    font-size: 24px;
+    float: left;
+    padding: 15px 15px;
+    padding-left: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+nav ul {
+	float: right;
+	padding: 15px 15px;
+    padding-right: 35px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: arial;
+
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: circle;
+}
+nav ul li.active a{
+	color:#FF6760;
+}
+nav ul li a {
+	color: #D8D8D8;
+	text-decoration: none;
+	margin-right:35px;
+	text-transform: uppercase;
+}
+
+/*header*/
+header {
+	
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+header h1 {
+	margin-top:65px;
+	font-size: 48px;
+	font-weight: 300;
+}
+header h1 span {
+	font-weight: bold;
+}
+header h2 {
+	font-size: 36px;
+	margin: 25px 0;
+	font-weight: 300;
+}
+header h2 span {
+	color: #EB615B;
+}
+header a {
+	background-color: #FF6760;
+	padding:15px 20px;
+	text-transform: uppercase;
+	border:none;
+	border-radius: 10px;
+	margin: 10px 0 75px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*features*/
+.features {
+	background-color: #F6F6F6;
+	color: #616161;
+}
+.item {
+	width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 25px 0;
+    padding: 5px 0 20px;
+}
+.item h4 {
+	font-size: 20px;
+	padding: 5px 0;
+}
+.item p {
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+/*footer*/
+footer {
+	color: #D8D8D8;
+	text-align: center;
+}
+footer h3 {
+	margin: 50px 0 25px;
+	font-size: 24px;
+}
+footer p {
+	color: #858585;
+	font-size: 16px;
+	padding: 3px 0;
+}
+footer p a {
+	color: #793F3D;
+}
+.socialIcons {
+	margin: 15px 0 50px;
+}
+.socialIcons a {
+	color: #fff;
+}
+.socialIcons .fa-twitter {
+	background-color: #5DAED5;
+	padding: 5px;
+	border-radius: 50%;
+}
+.socialIcons .fa-facebook {
+	background-color: #4470CF;
+	padding: 5px 8px;
+	border-radius: 50%;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+	.item {
+		width: 50%;
+		margin: 0 auto;
+		display: block;
+	}
+}
